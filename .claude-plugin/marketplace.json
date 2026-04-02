@@ -1,0 +1,19 @@
+{
+  "name": "yountofu",
+  "owner": {
+    "name": "yountofu"
+  },
+  "metadata": {
+    "description": "yountofu의 Claude Code 플러그인 마켓플레이스"
+  },
+  "plugins": [
+    {
+      "name": "pm-tools",
+      "source": {
+        "source": "github",
+        "repo": "yountofu/pm-tools"
+      },
+      "description": "PM/프론트엔드 작업용 Claude Code 스킬 모음"
+    }
+  ]
+}
