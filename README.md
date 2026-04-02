@@ -12,18 +12,10 @@ PM/프론트엔드 작업용 Claude Code 스킬 모음
 ## Install
 
 ```bash
-claude plugin marketplace add yountofu/pm-tools && claude plugin install pm-tools@yountofu
+npm install -g @yountofu/pm-tools
 ```
 
-## Troubleshooting
-
-`Permission denied (publickey)` 에러가 나면 SSH 대신 HTTPS로 클론하도록 설정:
-
-```bash
-git config --global url."https://github.com/".insteadOf "git@github.com:"
-```
-
-설정 후 다시 설치하면 됩니다.
+설치 후 Claude Code를 재시작하면 스킬이 자동으로 로드됩니다.
 
 ## License
 

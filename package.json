@@ -1,6 +1,6 @@
 {
   "name": "@yountofu/pm-tools",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "UI 디자인 가이드, 모바일 반응형 패턴 등 PM/프론트엔드 작업용 Claude Code 스킬 모음",
   "author": "yountofu",
   "license": "MIT",
@@ -11,6 +11,11 @@
   "files": [
     ".claude-plugin",
     "skills",
+    "install.sh",
+    "postinstall.js",
     "README.md"
-  ]
+  ],
+  "scripts": {
+    "postinstall": "node ./postinstall.js"
+  }
 }
