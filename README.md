@@ -1,4 +1,4 @@
-# @yountofu/pm-tools
+# tofu-pm-tools
 
 PM/프론트엔드 작업용 Claude Code 스킬 모음
 
@@ -12,10 +12,16 @@ PM/프론트엔드 작업용 Claude Code 스킬 모음
 ## Install
 
 ```bash
-npm install -g @yountofu/pm-tools
+npx tofu-pm-tools
 ```
 
 설치 후 Claude Code를 재시작하면 스킬이 자동으로 로드됩니다.
+
+## Update
+
+```bash
+claude plugin update pm-tools
+```
 
 ## License
 
