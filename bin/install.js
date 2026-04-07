@@ -2,7 +2,15 @@
 
 const { execSync } = require("child_process");
 
-console.log("@yountofu/pm-tools 설치 중...\n");
+console.log(`
+       ~  .  ~
+    ┌───────────┐ .
+  ~ │  ·     ·  │
+    │    ___    │ ~
+  . │           │
+    └───────────┘
+  ~  curea-pm-tools
+`);
 
 try {
   // 1. 마켓플레이스 추가
@@ -11,7 +19,7 @@ try {
     'git config --global url."https://github.com/".insteadOf "git@github.com:"',
     { stdio: "inherit" }
   );
-  execSync("claude plugin marketplace add yountofu/pm-tools", {
+  execSync("claude plugin marketplace add yountofu/curea-pm-tools", {
     stdio: "inherit",
   });
 
@@ -23,7 +31,7 @@ try {
 } catch (e) {
   console.error("\n✘ 설치 실패:", e.message);
   console.error(
-    "\n수동 설치 방법:\n  1. claude plugin marketplace add yountofu/pm-tools\n  2. claude plugin install pm-tools@yountofu"
+    "\n수동 설치 방법:\n  1. claude plugin marketplace add yountofu/curea-pm-tools\n  2. claude plugin install pm-tools@yountofu"
   );
   process.exit(1);
 }

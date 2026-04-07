@@ -11,9 +11,9 @@
       "name": "pm-tools",
       "source": {
         "source": "npm",
-        "package": "@yountofu/pm-tools"
+        "package": "curea-pm-tools"
       },
-      "description": "PM/프론트엔드 작업용 Claude Code 스킬 모음"
+      "description": "PM/프론트엔드 작업용 Claude Code 스킬 모음 (UI 가이드, 모바일 반응형, ClickUp 태스크 관리)"
     }
   ]
 }
