@@ -45,6 +45,14 @@ const prevVersion = getInstalledVersion();
 const prevSkills = getInstalledSkills();
 
 try {
+  // 0. SSH 없는 환경에서도 HTTPS로 GitHub 접근 가능하도록 설정
+  try {
+    execSync(
+      'git config --global url."https://github.com/".insteadOf "git@github.com:"',
+      { stdio: "pipe" }
+    );
+  } catch {}
+
   // 1. 마켓플레이스 추가
   if (!prevVersion) {
     console.log("마켓플레이스 등록...");
