@@ -5,7 +5,7 @@ const { homedir } = require("os");
 const dest = join(homedir(), ".claude", "plugins", "pm-tools");
 const src = __dirname;
 
-const skills = ["ui-design-guide", "ui-mobile-design", "task-clickup"];
+const skills = ["ui-design-guide", "ui-mobile-design", "task-clickup", "tool-figma-capture"];
 
 // 디렉토리 생성
 mkdirSync(join(dest, ".claude-plugin"), { recursive: true });
