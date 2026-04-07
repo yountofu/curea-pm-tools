@@ -2,7 +2,15 @@
 
 const { execSync } = require("child_process");
 
-console.log("curea-pm-tools 설치 중...\n");
+console.log(`
+       ~  .  ~
+    ┌───────────┐ .
+  ~ │  ·     ·  │
+    │    ___    │ ~
+  . │           │
+    └───────────┘
+  ~  curea-pm-tools
+`);
 
 try {
   // 1. 마켓플레이스 추가

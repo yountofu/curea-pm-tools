@@ -5,7 +5,17 @@
 PLUGIN_DIR="$HOME/.claude/plugins/pm-tools"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-echo "curea-pm-tools 설치 중..."
+cat << 'TOFU'
+
+       ~  .  ~
+    ┌───────────┐ .
+  ~ │  ·     ·  │
+    │    ___    │ ~
+  . │           │
+    └───────────┘
+  ~  curea-pm-tools
+
+TOFU
 
 # 스킬 디렉토리 생성
 mkdir -p "$PLUGIN_DIR/.claude-plugin"
