@@ -1,12 +1,12 @@
 {
-  "name": "tofu-pm-tools",
-  "version": "1.0.0",
-  "description": "UI 디자인 가이드, 모바일 반응형 패턴 등 PM/프론트엔드 작업용 Claude Code 스킬 모음",
+  "name": "curea-pm-tools",
+  "version": "1.1.0",
+  "description": "UI 디자인 가이드, 모바일 반응형 패턴, ClickUp 태스크 관리 등 PM/프론트엔드 작업용 Claude Code 스킬 모음",
   "author": "yountofu",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yountofu/pm-tools"
+    "url": "https://github.com/yountofu/curea-pm-tools"
   },
   "bin": "bin/install.js",
   "files": [
